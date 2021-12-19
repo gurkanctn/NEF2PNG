@@ -1,7 +1,17 @@
-import time
+# NEF2PNG
+# G.Çetin, 2021 
+#
+# https://github.com/gurkanctn/NEF2PNG
+# 
+# Python script that uses multiprocessing to convert all NEF files in a folder to PNG format
+# 
+# Requires: 
+# 1) IrfanView to do the conversion
+# 2) more than one core to get a better performance than simply using Irfanview
+#  
 
-import multiprocessing
 import os
+import multiprocessing
 import subprocess
 
 NEFnames = []
