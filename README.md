@@ -7,3 +7,4 @@ Convert NEF files to PNG files, using parallel processing (requires IrfanView)
 ## 1) IrfanView to do the conversion
 ## 2) more than one core to get a better performance than simply using Irfanview
  
+This implementation runs on Windows, but the main idea should be able to run on Linux, try changing the main Conversion commands to their Linux applicable version.
