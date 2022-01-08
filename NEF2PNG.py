@@ -15,26 +15,34 @@ import multiprocessing
 import subprocess
 
 NEFnames = []
+myCount = 0
+numberOfFiles = 1
 
 def getNEFnames():
     #get NEF file names from current working directory
     files = [f for f in os.listdir('.') if (os.path.isfile(f))]
     NEFfiles = [ f for f in files if (".NEF" in f)]
+    numberOfFiles = len(NEFfiles)
     return NEFfiles
 
 def convertNEFtoPNG(fileList):
     if isinstance(fileList, list):
         for f in fileList:
-            print(f)
-            # os.system('C:\Program Files (x86)\IrfanView\i_view32.exe', f, '/convert=', f ,'.png')
+            print("y", end = "")
             subprocess.run(['C:\Program Files (x86)\IrfanView\i_view32.exe', f, '/convert=', f,'.png'])
     else:
+        print("+", end = "", flush= True)
         subprocess.run(['C:\Program Files (x86)\IrfanView\i_view32.exe', fileList, '/convert=', fileList,'.png'])
 
 def printOut(NEFnames):
     for f in NEFnames:
         # do something
-        print(f)
+        print(f, end = ';')
+    print("\n Starting Conversion: ... ")
+    for f in NEFnames:
+        # do something
+        print("_", end = "", flush=True)
+    print("")
 
 def main():
     """ main function.
