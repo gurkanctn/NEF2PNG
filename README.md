@@ -11,3 +11,7 @@
 ### 2) more than one core to get a better performance than simply using Irfanview
  
 This implementation runs on Windows, but the main idea should be able to run on Linux, try changing the main Conversion commands to their Linux applicable version.
+
+Run the following command to execute NEF2PNG with Python.
+
+**python.exe NEF2PNG.py**
