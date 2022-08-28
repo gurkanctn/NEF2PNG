@@ -1,4 +1,4 @@
-*Convert NEF files to PNG files, using parallel processing* (requires IrfanView)
+*Convert NEF files to PNG files, using parallel processing* (this implementation uses IrfanView, but you can use other methods to convert them, or even adjust this script to run your own "multi-tasking" tools.)
 
 # NEF2PNG is a Python script
 * that uses multiprocessing 
