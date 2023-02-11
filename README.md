@@ -1,4 +1,9 @@
+![image](https://user-images.githubusercontent.com/8074474/218271924-0cfbfca6-a9be-45b8-8db8-6873e30e33f0.png)
+
 *Convert NEF files to PNG files, using parallel processing* (this implementation uses IrfanView, but you can use other methods to convert them, or even adjust this script to run your own "multi-tasking" tools.)
+
+![nikon](https://user-images.githubusercontent.com/8074474/218271430-f0a30b60-a8da-4c3d-9042-3229ef641bac.jpg)
+
 
 # NEF2PNG is a Python script
 * that uses multiprocessing 
@@ -15,6 +20,6 @@ Example (core i5 quad core)
  
 This implementation runs on Windows, but the main idea should be able to run on Linux, try changing the main Conversion commands to their Linux applicable version.
 
-Run the following command to execute NEF2PNG with Python.
+Run the following command (in the command prompt on Windows) to execute NEF2PNG with Python.
 
-**python.exe NEF2PNG.py**
+**>python.exe NEF2PNG.py**
