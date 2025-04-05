@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/8074474/218271924-0cfbfca6-a9be-45b8-8db8-6873e30e33f0.png)
+![ChatGPT Image Apr 5, 2025, 11_02_00 PM](https://github.com/user-attachments/assets/bc51b438-e8f1-4518-9176-020f9f19d507)
+
 
 *Convert NEF files to PNG files, using parallel processing* (this implementation uses IrfanView, but you can use other methods to convert them, or even adjust this script to run your own "multi-tasking" tools.)
 
